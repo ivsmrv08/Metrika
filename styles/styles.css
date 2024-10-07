@@ -11,6 +11,7 @@ body {
 }
 
 .main_text {
+    width: 956px;
     color: #000;
     font-family: Manrope;
     font-size: 60px;
@@ -21,7 +22,7 @@ body {
     margin-bottom: 30px;   
 }
 
-.main {
+.main-image {
     position: relative;
     width: 1150px;
     height: 410px;
@@ -83,4 +84,3 @@ body {
     text-align: center;
     line-height: 67px;
 }
-
