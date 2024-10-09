@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    font-family: Manrope;
 }
 
 section {
@@ -17,16 +18,31 @@ section:nth-last-child(1) {
     width: 1400px;
 }
 
-.interior-title {
+h1 {
     margin-bottom: 30px; 
     width: 956px;
     color: #000;
-    font-family: Manrope;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 60px; 
     letter-spacing: -1.8px;
+}
+
+h2 {
+    color: #000;
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
 }
 
 .interior-image {
@@ -43,7 +59,7 @@ section:nth-last-child(1) {
     bottom: 40px;
     width: 430px;
     color: #fff;
-    font-family: Manrope;
+    
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -55,18 +71,11 @@ section:nth-last-child(1) {
 
 .about-title {
     color: #000;
-    display: block;
-    font-family: Manrope;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.54px;
     margin-bottom: 30px;
 }
 
 .about-text {
     width: 1048px;
-    font-family: Manrope;
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +91,6 @@ section:nth-last-child(1) {
     width: 255px;
     height: 67px;
     color: #FFF;
-    font-family: Manrope;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -101,28 +109,13 @@ section:nth-last-child(1) {
 }
 
 .project-title {
-    color: #000;
-    display: block;
-    font-family: Manrope;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.54px;
+    
     margin-bottom: 30px;
-}
-
-.project-text {
-    margin-top: 15px;
-    font-family: Manrope;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: -0.9px;
 }
 
 .project-more {
     display: block;
     margin-top: 15px;
-    font-family: Manrope;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -141,7 +134,6 @@ section:nth-last-child(1) {
     color: #AD1818;
     text-decoration: none;
     text-align: center;
-    font-family: Manrope;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -158,18 +150,13 @@ section:nth-last-child(1) {
 /*=================================*/
 
 #services {
+    width: 100%;
     padding: 150px 0;
     background-color: #000;
 }
 
 .servises-title {
     color: #fff;
-    display: block;
-    font-family: Manrope;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.54px;
     margin-bottom: 34px;
 }
 
@@ -185,7 +172,6 @@ section:nth-last-child(1) {
     margin-top: 15px;
     margin-left: 3px;
     color: #fff;
-    font-family: Manrope;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
