@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+}
+
 section {
     display: block;
     margin-bottom: 150px;
