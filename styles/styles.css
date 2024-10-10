@@ -150,7 +150,7 @@ h3 {
 /*=================================*/
 
 #services {
-    width: 100%;
+    min-width: 1400px;
     padding: 150px 0;
     background-color: #000;
 }
