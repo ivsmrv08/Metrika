@@ -236,7 +236,7 @@ h3 {
 .fullscreen {
     position: relative;
     height: 717px;
-    background-image: url('/resourses/Fullscreen.png');
+    background-image: url('resourses/Fullscreen.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
