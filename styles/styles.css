@@ -13,8 +13,8 @@ section {
 
 .container {
     margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1180px;
+    padding: 0 125px;
+    max-width: 1400px;
 }
 
 .about, 
@@ -24,21 +24,22 @@ section {
 }
 
 .navigation {
+    min-width: 1400px;
     display: block;
-    margin-bottom: 70px;
-    margin-top: 32.82px;
+    margin-bottom: 69.82px;
+    margin-top: 33px;
     
 }
 
 .logo-link {
     display: inline-block;
-    margin-right: 558.46px;
+    margin-right: 556px;
 }
 
 .logo {
     display: block;
-    width: 126.89px;
-    height: 21.42px;
+    width: 127px;
+    height: 21px;
 }
 
 .nav {
@@ -47,12 +48,12 @@ section {
 }
 
 .nav-link {
-    margin-right: 56px;
+    margin-right: 57px;
     color: #121212;
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 25.18px;
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -87,20 +88,22 @@ h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: -0.54px;
+    letter-spacing: -0.3px;
+    line-height: 26px;
 }
 
 h3 {
     margin-top: 15px;
     font-size: 30px;
     font-weight: 400;
+    line-height: 36px;
     letter-spacing: -0.9px;
 }
 
 .interior-image {
     position: relative;
-    width: 100%;
-    height: 410px;
+    width: 1150px;
+    height: 500px;
     background-image: url('../resourses/Main_1.jpg');
     background-repeat: no-repeat;
 }
@@ -117,6 +120,7 @@ h3 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.6px;
+    line-height: 27px;
 }
 
 /*=================================*/
@@ -132,7 +136,9 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -1.35px;
+    letter-spacing: -1.34px;
+    line-height: 61px;
+    word-spacing: 0.2px;
     margin-bottom: 30px;
 }
 
@@ -157,7 +163,7 @@ h3 {
 /*=================================*/
 
 .project {
-    margin-bottom: 90px;
+    margin-bottom: 85px;
 }
 
 .project-title {
@@ -167,18 +173,19 @@ h3 {
 
 .project-more {
     display: block;
-    margin-top: 15px;
+    margin-left: 1px;
+    margin-top: 14.5px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.6px;
+    line-height: 33px;
+    letter-spacing: -0.5px;
     color: #AD1818;
     text-decoration: none;
 }
 
 .view-project {
-    width: 100%;
+    min-width: 1150px;
     background-color: #FFF;
     display: block;
     border: 1px solid #AD1818;
@@ -202,8 +209,8 @@ h3 {
 /*=================================*/
 
 .services {
-    min-width: 1180px;
-    padding: 150px 0;
+    min-width: 1400px;
+    padding: 154px 0;
     background-color: #000;
 }
 
@@ -220,20 +227,25 @@ h3 {
     margin-bottom: 0;
 }
 
+.service-img {
+
+}
+
 .service-text {
-    margin-top: 15px;
+    margin-top: 13px;
     margin-left: 3px;
     color: #fff;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 39px;
     letter-spacing: -0.9px;
 }
 
 /*=================================*/
 
 .fullscreen {
+    min-width: 1400px;
     position: relative;
     height: 717px;
     background-image: url('../resourses/Fullscreen.jpg');
@@ -252,4 +264,87 @@ h3 {
     font-weight: 400;
     line-height: 41px;
     letter-spacing: -0.6px; ;
+}
+
+/*=================================*/
+
+.block-contacts {
+    position: relative;
+    margin-top: 186px;
+    margin-bottom: 150px;
+    width: 500px;
+}
+
+.block-contacts:before {
+    position: absolute;
+    top: -36px;
+    left: -4px;
+    display: block;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url(../resourses/Phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.phone, .mail {
+    margin-top: 32px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 60px;
+    height: 60px;
+    font-weight: 400;
+    letter-spacing: -0.9px; 
+}
+
+
+.phone:hover, .mail:hover {
+    border-bottom: 1px solid #000;
+    opacity: 0.5;
+}
+
+/*=================================*/
+
+.footer {
+    padding: 60px 0 30px 0;
+    min-width: 1400px;
+    background-color: #000;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    width: 463px;
+}
+
+.footer-nav-link {
+    margin-right: 55px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.9px;
+    text-decoration: none;
+}
+
+.footer-nav-link:hover {
+    color: #746f6f;
+}
+
+.footer-nav-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+
+.footer-title {
+    margin-top: 76px;
+    color: #746f6f;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.8px;
+    text-align: center;
 }
