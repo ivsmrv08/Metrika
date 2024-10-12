@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     font-family: Manrope;
@@ -10,14 +14,61 @@ section {
 .container {
     margin: 0 auto;
     padding: 0 15px;
-    width: 1180px;
+    max-width: 1180px;
 }
 
-.hero, 
 .about, 
-.projects {
-    margin-bottom: 150px;
+.projects,
+.services {
+    margin-top: 150px;
 }
+
+.navigation {
+    display: block;
+    margin-bottom: 70px;
+    margin-top: 32.82px;
+    
+}
+
+.logo-link {
+    display: inline-block;
+    margin-right: 558.46px;
+}
+
+.logo {
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-link {
+    margin-right: 56px;
+    color: #121212;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.nav-link:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #121212;
+    padding-bottom: 2px;
+    opacity: 0.5;
+}
+
+/*=================================*/
 
 h1 {
     margin-bottom: 30px; 
@@ -151,6 +202,7 @@ h3 {
 /*=================================*/
 
 .services {
+    min-width: 1180px;
     padding: 150px 0;
     background-color: #000;
 }
@@ -177,4 +229,27 @@ h3 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.9px;
+}
+
+/*=================================*/
+
+.fullscreen {
+    position: relative;
+    height: 717px;
+    background-image: url('/resourses/Fullscreen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.fullscreen-text {
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.6px; ;
 }
