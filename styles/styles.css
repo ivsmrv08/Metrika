@@ -26,30 +26,30 @@ section {
     margin-top: 150px;
 }
 
-.navigation {
+.nav {
     display: block;
     margin-bottom: 70px;
     margin-top: 33px;
     
 }
 
-.logo-link {
+.nav__link_left{
     display: inline-block;
 }
 
-.logo {
+.nav__logo {
     display: block;
     width: 127px;
     height: 21px;
 }
 
-.nav {
+.nav__list {
     display: inline-block;
     vertical-align: top;
     float: right;
 }
 
-.nav-link {
+.nav__link {
     margin-right: 60px;
     color: #121212;
     text-decoration: none;
@@ -60,11 +60,11 @@ section {
     text-transform: uppercase;
 }
 
-.nav-link:nth-last-of-type(1) {
+.nav__link:nth-last-of-type(1) {
     margin-right: 0;
 }
 
-.nav-link:hover {
+.nav__link:hover {
     border-bottom: 1px solid #121212;
     padding-bottom: 2px;
     opacity: 0.5;
@@ -72,7 +72,7 @@ section {
 
 /*=================================*/
 
-h1 {
+.hero__title {
     margin-bottom: 30px; 
     width: 956px;
     color: #000;
@@ -98,7 +98,7 @@ h3 {
     line-height: 41px;
 }
 
-.interior-image {
+.hero__image {
     position: relative;
     width: 1150px;
     height: 500px;
@@ -106,7 +106,7 @@ h3 {
     background-repeat: no-repeat;
 }
 
-.interior-text {
+.hero__text {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -119,12 +119,12 @@ h3 {
 
 /*=================================*/
 
-.about-title {
+.about__title {
     color: #000;
     margin-bottom: 30px;
 }
 
-.about-text {
+.about__text {
     margin-bottom: 30px;
     width: 1048px;
     font-weight: 400;
@@ -133,7 +133,7 @@ h3 {
     letter-spacing: -0.03em;
 }
 
-.about-btn {
+.about__btn {
     display: block;
     background-color: #AD1818;
     border-radius: 5px;
@@ -156,12 +156,12 @@ h3 {
     margin-bottom: 90px;
 }
 
-.project-title {
+.projects__title {
     
     margin-bottom: 30px;
 }
 
-.project-more {
+.project__link {
     display: block;
     margin-left: 2px;
     margin-top: 15px;
@@ -173,7 +173,7 @@ h3 {
     text-decoration: none;
 }
 
-.view-project {
+.project__link_red {
     width: 1150px;
     height: 153px;
     background-color: #FFF;
@@ -189,7 +189,7 @@ h3 {
     line-height: 153px;
 }
 
-.view-project:hover {
+.project__link_red:hover {
     color: #FFF;
     background-color: #AD1818;
 }
@@ -202,7 +202,7 @@ h3 {
     background-color: #000;
 }
 
-.servises-title {
+.servises__title {
     color: #fff;
     margin-bottom: 34px;
 }
@@ -215,7 +215,7 @@ h3 {
     margin-bottom: 0;
 }
 
-.service-text {
+.service__text {
     margin-top: 15px;
     margin-left: 3px;
     color: #fff;
@@ -237,7 +237,7 @@ h3 {
     background-position: 50% 50%;
 }
 
-.fullscreen-text {
+.fullscreen__text {
     display: block;
     position: absolute;
     bottom: 60px;
@@ -250,14 +250,14 @@ h3 {
 
 /*=================================*/
 
-.block-contacts {
+.contacts__list {
     position: relative;
     margin-top: 186px;
     margin-bottom: 150px;
     width: 481px;
 }
 
-.block-contacts:before {
+.contacts__list :before {
     position: absolute;
     top: -36px;
     left: -4px;
@@ -271,7 +271,7 @@ h3 {
     background-position: 50% 50%;
 }
 
-.phone {
+.contacts__link_phone {
     margin-left: 1px;
     margin-top: 32px;
     display: block;
@@ -282,7 +282,7 @@ h3 {
     font-weight: 400;
 }
 
-.mail {
+.contacts__link_mail {
     margin-left: 1px;
     margin-top: 30px;
     display: block;
@@ -294,7 +294,8 @@ h3 {
 }
 
 
-.phone:hover, .mail:hover {
+.contacts__link_phone:hover, 
+.contacts__link_mail:hover {
     border-bottom: 2px solid #000;
     opacity: 0.5;
 }
@@ -307,12 +308,12 @@ h3 {
     background-color: #000;
 }
 
-.footer-nav {
+.footer__navlist {
     margin: 0 auto;
     width: 463px;
 }
 
-.footer-nav-link {
+.footer__link {
     margin-right: 55px;
     display: inline-block;
     color: #fff;
@@ -322,16 +323,16 @@ h3 {
     text-decoration: none;
 }
 
-.footer-nav-link:hover {
+.footer__link:hover {
     color: #746f6f;
 }
 
-.footer-nav-link:nth-last-child(1) {
+.footer__link:nth-last-child(1) {
     margin-right: 0;
 }
 
 
-.footer-title {
+.footer__text {
     margin-top: 87px;
     color: #746f6f;
     font-size: 20px;
