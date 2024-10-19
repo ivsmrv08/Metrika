@@ -18,19 +18,19 @@ section {
     max-width: 1180px;
 }
 
+.header {
+    display: block;
+    padding-bottom: 70px;
+    padding-top: 33px;
+    
+}
+
 /*=================================*/
 
 .about, 
 .projects,
 .services {
     margin-top: 150px;
-}
-
-.nav {
-    display: block;
-    margin-bottom: 70px;
-    margin-top: 33px;
-    
 }
 
 .nav__link_left{
@@ -50,7 +50,11 @@ section {
 }
 
 .nav__link {
+    display: inline-block;
     margin-right: 60px;
+}
+
+.nav__link_right {
     color: #121212;
     text-decoration: none;
     font-weight: 400;
@@ -64,7 +68,7 @@ section {
     margin-right: 0;
 }
 
-.nav__link:hover {
+.nav__link_right:hover {
     border-bottom: 1px solid #121212;
     padding-bottom: 2px;
     opacity: 0.5;
@@ -100,7 +104,7 @@ h3 {
 
 .hero__image {
     position: relative;
-    width: 1150px;
+    width: 100%;
     height: 500px;
     background-image: url('../resourses/Main_1.jpg');
     background-repeat: no-repeat;
@@ -156,6 +160,13 @@ h3 {
     margin-bottom: 90px;
 }
 
+.project__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .projects__title {
     
     margin-bottom: 30px;
@@ -197,7 +208,6 @@ h3 {
 /*=================================*/
 
 .services {
-    width: 100%;
     padding: 151px 0 150px 0;
     background-color: #000;
 }
@@ -213,6 +223,13 @@ h3 {
 
 .service:nth-last-child(1) {
     margin-bottom: 0;
+}
+
+.service__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .service__text {
@@ -250,17 +267,20 @@ h3 {
 
 /*=================================*/
 
-.contacts__list {
-    position: relative;
-    margin-top: 186px;
-    margin-bottom: 150px;
-    width: 481px;
+.contacts {
+    padding-top: 186px;
+    padding-bottom: 150px;
 }
 
-.contacts__list :before {
+.contacts__title {
+    position: relative;
+    display: block;
+}
+
+.contacts__title:before {
     position: absolute;
-    top: -36px;
     left: -4px;
+    top: -36px;
     display: block;
     content: '';
     width: 24px;
@@ -271,20 +291,20 @@ h3 {
     background-position: 50% 50%;
 }
 
-.contacts__link_phone {
+.contacts__list {
+    position: relative;
+}
+
+
+
+.contacts__link {
     margin-left: 1px;
     margin-top: 32px;
     display: block;
-    color: #000;
-    text-decoration: none;
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 400;
 }
 
-.contacts__link_mail {
-    margin-left: 1px;
-    margin-top: 30px;
+.contacts__link_mail,
+.contacts__link_phone {
     display: block;
     color: #000;
     text-decoration: none;
@@ -293,9 +313,8 @@ h3 {
     font-weight: 400;
 }
 
-
-.contacts__link_phone:hover, 
-.contacts__link_mail:hover {
+.contacts__link_mail:hover,
+.contacts__link_phone:hover {
     border-bottom: 2px solid #000;
     opacity: 0.5;
 }
@@ -309,8 +328,9 @@ h3 {
 }
 
 .footer__navlist {
+    display: block;
+    width: 458px;
     margin: 0 auto;
-    width: 463px;
 }
 
 .footer__link {
@@ -323,14 +343,23 @@ h3 {
     text-decoration: none;
 }
 
-.footer__link:hover {
-    color: #746f6f;
-}
-
 .footer__link:nth-last-child(1) {
     margin-right: 0;
 }
 
+.footer__link_bottom {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer__link_bottom:hover {
+    opacity: 0.5;
+}
 
 .footer__text {
     margin-top: 87px;

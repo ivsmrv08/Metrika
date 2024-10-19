@@ -13,23 +13,30 @@
     />
   </head>
   <body>
-    <header>
-      <section class="nav">
+    <header class="header">
         <div class="container">
           <a href="#" class="nav__link_left"
             ><img class="nav__logo" src="resourses/Logo_m.png" alt="logo"
           /></a>
-          <div class="nav__list">
-            <a href="#aboutus" class="nav__link">О НАС</a>
-            <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
-            <a href="#services" class="nav__link">УСЛУГИ</a>
-            <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
-          </div>
+          <ul class="nav__list">
+            <li class="nav__link">
+              <a class="nav__link_right" href="#aboutus">О НАС</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link_right" href="#projects">ПРОЕКТЫ</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link_right" href="#services">УСЛУГИ</a>
+            </li>
+            <li href="" class="nav__link">
+              <a class="nav__link_right" href="#contacts">КОНТАКТЫ</a>
+            </li>
+          </ul>
         </div>
-      </section>
     </header>
     <main>
-      <section class="hero">
+      <section id="hero">
+        <div class="hero">
         <div class="container">
           <h1 class="hero__title">
             Современные и стильные интерьеры для комфортной жизни
@@ -41,8 +48,10 @@
             </p>
           </div>
         </div>
+      </div>
       </section>
-      <section id="aboutus" class="about">
+      <section id="aboutus" >
+        <div class="about">
         <div class="container">
           <h2 class="about__title">О НАС</h2>
           <p class="about__text">
@@ -53,8 +62,10 @@
           </p>
           <a href="#" class="about__btn">Посмотреть услуги</a>
         </div>
+      </div>
       </section>
-      <section id="projects" class="projects">
+      <section id="projects">
+        <div  class="projects">
         <div class="container">
           <h2 class="projects__title">ПРОЕКТЫ</h2>
           <ul class="projects__list">
@@ -88,8 +99,10 @@
           </ul>
           <a class="project__link_red" href="#">Смотреть все проекты</a>
         </div>
+      </div>
       </section>
-      <section id="services" class="services">
+      <section id="services" >
+        <div class="services">
         <div class="container">
           <h2 class="servises__title">УСЛУГИ</h2>
           <ul class="services__list">
@@ -113,36 +126,51 @@
             </li>
           </ul>
         </div>
+      </div>
       </section>
-      <section class="fullscreen">
+      <section id="fullscreen">
+        <div class="fullscreen">
         <div class="container">
           <p class="fullscreen__text">
             Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
           </p>
         </div>
+      </div>
       </section>
-      <section id="contacts" class="contacts">
+      <section id="contacts">
+        <div class="contacts">
         <div class="container">
-          <div class="contacts__list">
-            <h2 class="contacts__title">КОНТАКТЫ</h2>
-            <a class="contacts__link_mail" href="tel:+79358954535">+7 935 895-45-35</a>
-            <a class="contacts__link_phone" href="mailto:hello@mail.com">hello@mail.com</a>
-          </div>
+          <h2 class="contacts__title">КОНТАКТЫ</h2>
+          <ui class="contacts__list">
+            <li class="contacts__link" >
+              <a class="contacts__link_mail" href="tel:+79358954535">+7 935 895-45-35</a>
+            </li>
+            <li class="contacts__link" >
+              <a class="contacts__link_phone" href="mailto:hello@mail.com">hello@mail.com</a>
+            </li>
+            </ul>
         </div>
+      </div>
       </section>
     </main>
-    <footer>
-      <section class="footer">
+    <footer class="footer">
         <div class="container">
-          <div class="footer__navlist">
-            <a href="#aboutus" class="footer__link">О НАС</a>
-            <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
-            <a href="#services" class="footer__link">УСЛУГИ</a>
-            <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
-          </div>
+          <ul class="footer__navlist">
+           <li class="footer__link">
+            <a class="footer__link_bottom" href="#aboutus" >О НАС</a>
+           </li> 
+           <li class="footer__link">
+              <a class="footer__link_bottom" href="#projects">ПРОЕКТЫ</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link_bottom" href="#services">УСЛУГИ</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link_bottom" href="#contacts">КОНТАКТЫ</a>
+            </li>
+          </ul>
           <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
         </div>
-      </section>
     </footer>
   </body>
 </html>
